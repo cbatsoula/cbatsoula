@@ -1,12 +1,44 @@
 .App {
   text-align: center;
+  /* background-color: burlywood; */
+  background-image: url("/IMG_4956.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
 
-.App-logo {
+.Nav {
+  background-color: #C3C9DE;
+  opacity: 0.5;
+  width: 100vw;
+  height: 10vh;
+}
+
+.Landing {
+  color: burlywood;
+  font-size: 35px;
+  text-align: center justify;
+  text-shadow: 3px 2px black;
+
+}
+
+.Projects {
+  background-color: #C3C9DE;
+  opacity: 0.5;
+  text-align: center;
+  height: 50vh;
+  width: 100vw;
+
+}
+
+.About {
+  
+}
+/* .App-logo {
   height: 40vmin;
-}
+} */
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -15,8 +47,4 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #09d3ac;
-}
+} */
