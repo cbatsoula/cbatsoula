@@ -4,6 +4,7 @@ import './App.css';
 import Nav from './containers/Nav';
 import Projects from './components/Projects';
 import About from './containers/About';
+import Footer from './components/Footer';
 
 class App extends React.Component {
 
@@ -19,7 +20,7 @@ class App extends React.Component {
         </div>
         <Projects />
         <About />
-        <Projects />
+        <Footer />
       </>
     );
   }
