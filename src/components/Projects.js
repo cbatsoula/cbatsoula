@@ -3,14 +3,19 @@ import React from 'react';
 class Projects extends React.Component {
   render () {
     return (
+      <>
+      <h3>Projects</h3>
       <div className="Projects">
         <div className="Projects-text">
-        WavesOn
-        _explore_
-        SKINN - made in collaboration with @ekatsuta
-        Card Game - made in collaboration with @oscei303
+        <ul>
+          <li>WavesOn</li>
+          <li>_explore_</li>
+          <li>SKINN - made in collaboration with @ekatsuta</li>
+          <li>Card Game - made in collaboration with @oscei303</li>
+        </ul>
         </div>
       </div>
+      </>
     );
   }
 }
