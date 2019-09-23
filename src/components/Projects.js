@@ -4,10 +4,12 @@ class Projects extends React.Component {
   render () {
     return (
       <div className="Projects">
-      WavesOn
-      _explore_
-      SKINN
-      Card Game
+        <div className="Projects-text">
+        WavesOn
+        _explore_
+        SKINN - made in collaboration with @ekatsuta
+        Card Game - made in collaboration with @oscei303
+        </div>
       </div>
     );
   }
