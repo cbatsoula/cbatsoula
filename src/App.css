@@ -1,4 +1,5 @@
 .Main {
+  display: flex;
   text-align: center;
   /* background-color: burlywood; */
   background-image: url("/IMG_4956.jpg");
@@ -8,6 +9,7 @@
 }
 
 .Nav {
+  display: flex;
   background-color: #C3C9DE;
   opacity: 0.5;
   width: 100vw;
@@ -19,35 +21,8 @@
   text-align: center justify;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: #111;
-}
-
-.active {
-  background-color: #4CAF50;
-}
-
 .Landing {
+  display: flex;
   color: burlywood;
   font-size: 35px;
   text-align: center justify;
@@ -56,6 +31,7 @@ li a:hover:not(.active) {
 }
 
 .Projects {
+  display: flex;
   background-color: #C3C9DE;
   background-image: url("/IMG_4800.jpg");
   background-size: cover;
@@ -67,6 +43,7 @@ li a:hover:not(.active) {
 }
 
 .Projects-text {
+  display: flex;
   background-color: burlywood;
   opacity: 0.5;
   height: 75vh;
@@ -78,6 +55,7 @@ li a:hover:not(.active) {
 }
 
 .About {
+  display: flex;
 
 }
 /* .App-logo {
