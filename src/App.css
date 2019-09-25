@@ -40,11 +40,13 @@
   height: 100vh;
   width: 100vw;
   justify-content: center; */
+
   display: flex;
-  height: 75vh;
-  width: 80vw;
-  padding: 50px;
-  margin: 20px;
+  height: 100vh;
+  width: 100vw;
+  /* opacity: 0.5; but why*/
+  /* padding: 50px; */
+  /* margin: 20px; */
   align-self: center;
   justify-content: center;
   background-color: darkblue;
@@ -73,7 +75,8 @@
   margin: 20px;
   align-self: center;
   justify-content: center;
-  background-color: darkblue;
+  color: white;
+  background-color: pink;
 }
 
 .About {
@@ -95,7 +98,7 @@
   align-self: center;
   justify-content: center;
   background-color: darkblue;
-
+  opacity: 0.5;
 }
 
 .Footer {
