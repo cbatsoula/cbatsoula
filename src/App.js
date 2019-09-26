@@ -13,16 +13,17 @@ class App extends React.Component {
   render () {
     return (
       <>
-
+        <Router>
         <Nav />
         <div className="Main">
           <div className="Landing">
           Hi, I'm Catherine Batsoula
           </div>
         </div>
-        <Projects />
+        <Route path='/projects' render={(routerProps) => <Projects {...routerProps} /> } />
         <About />
         <Footer />
+        </Router>
       </>
     );
   }
