@@ -98,7 +98,10 @@
   align-self: center;
   justify-content: center;
   background-color: darkblue;
-  opacity: 0.5;
+  /* opacity: 0.5; */
+
+  color: white;
+  font-weight: bold;
 }
 
 .Footer {

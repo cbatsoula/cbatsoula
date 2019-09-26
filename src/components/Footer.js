@@ -5,6 +5,7 @@ class Footer extends React.Component {
     linkedin: "https://www.linkedin.com/in/catherine-batsoula-3983a218a/",
     github: "https://github.com/cbatsoula",
     gmail: "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=+cbatsoula@gmail.com",
+    medium: "",
   }
   handleLinks = (event) => {
     console.log(event.target.innerText)
@@ -14,6 +15,8 @@ class Footer extends React.Component {
       return window.location = this.state.github
     } else if (event.target.innerText === "Gmail") {
       return window.location = this.state.gmail
+    } else if (event.target.innerText === "Medium") {
+      return window.location = this.state.medium
     }
 
   }
@@ -23,6 +26,7 @@ class Footer extends React.Component {
         <button onClick={(event) => {this.handleLinks(event)}}>Linkedin</button>
         <button onClick={(event) => {this.handleLinks(event)}}>Gmail</button>
         <button onClick={(event) => {this.handleLinks(event)}}>Github</button>
+        <button onClick={(event) => {this.handleLinks(event)}}>Medium</button>
       </div>
     );
   }
