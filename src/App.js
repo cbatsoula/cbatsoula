@@ -20,10 +20,13 @@ class App extends React.Component {
           Hi, I'm Catherine Batsoula
           </div>
         </div>
-        <Route path='/projects' render={(routerProps) => <Projects {...routerProps} /> } />
-        <About />
-        <Footer />
+        <Switch>
+          <Route path='/projects' render={(routerProps) => <Projects {...routerProps} /> } />
+          <Route path='/about' render={(routerProps) => <About {...routerProps} /> } />
+        </Switch>
         </Router>
+
+        <Footer />
       </>
     );
   }
