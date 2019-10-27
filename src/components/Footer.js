@@ -5,7 +5,7 @@ class Footer extends React.Component {
     linkedin: "https://www.linkedin.com/in/catherine-batsoula-3983a218a/",
     github: "https://github.com/cbatsoula",
     gmail: "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=+cbatsoula@gmail.com",
-    medium: "",
+    medium: "https://medium.com/@cbatsoula",
   }
   handleLinks = (event) => {
     console.log(event.target.innerText)

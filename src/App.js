@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Resume from "./components/Resume"
 
-import logo from './logo.svg';
 import './App.css';
 import Nav from './containers/Nav';
 import Projects from './components/Projects';
@@ -9,6 +9,7 @@ import About from './containers/About';
 import Footer from './components/Footer';
 
 class App extends React.Component {
+
 
   render () {
     return (
@@ -23,6 +24,7 @@ class App extends React.Component {
         <Switch>
           <Route path='/projects' render={(routerProps) => <Projects {...routerProps} /> } />
           <Route path='/about' render={(routerProps) => <About {...routerProps} /> } />
+          <Route path='/resume' render={(routerProps) => <Resume {...routerProps} /> } />
         </Switch>
         </Router>
 

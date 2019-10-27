@@ -1,11 +1,17 @@
 import React from 'react';
 
 class About extends React.Component {
+
+
   render () {
+
     return (
       <div className="About">
         <div className="About-cont">
-        A few sentences about myself, I just need some text here for now as a placeholder until I feel like I can write something about myself. I dont know what else to ramble on here about but I just want to see realistically how more text would look and what my limit is because it would suck to work on the css and then it look super wonky. Surely not the best approach, but it's something and it's what I'm just workin with. I think I need to replace my kindle paperwhite from the 2012 launch. Amazon has a promo to trade-in other kindles for 25% off towards a new kindle and a little giftcard for the value of the kindle trade-in. I'm really promoting Amazon here right now, a little weird but hey, it's something I'm debating today that is also in my head besides code.
+        Full stack web developer with 4 years’ experience in the service industry with a passion for designing projects and coding. Leveraging experience in Ruby on Rails, JavaScript, React and a background in catering, I know how to work on a team under pressure to deliver a successful end result. I bring strong skills in team-building and project management to help drive the project to completion. I discovered coding through meeting new people who encouraged me to take the leap into programming. I am excited to build and maintain web applications that will be used by everyday people navigating through the uncertain waters of life.
+        </div>
+        <div className="About-images">
+
         </div>
       </div>
     );
