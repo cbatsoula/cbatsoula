@@ -45,8 +45,8 @@ class ProjectCard extends React.Component {
         <div className="Projects-text">
           <div className="waveson">
             <ul>
-              <h4>WavesOn - <button onClick={(event) => {this.WavesonHandleLinks(event)}}> Client </button> |
-              <button onClick={(event) => {this.WavesonHandleLinks(event)}}> API </button></h4>
+              <h4>WavesOn - <button className="project-buttons" onClick={(event) => {this.WavesonHandleLinks(event)}}> Client </button> |
+              <button className="project-buttons" onClick={(event) => {this.WavesonHandleLinks(event)}}> API </button></h4>
               <li>Marine weather and journal web app to allow users to check hourly weather at favorite and nearby (with a radius of roughly 13 miles) beach locations. Users can document their experience at that beach by writing notes and uploading a photo to look back at that moment. </li>
               <li>Utilized Ruby on Rails, React,js, and Custom CSS. Uses Google Products (Places API, Geolocation API, Geocoding API, Maps Javascript API) and World Wide Weather Marine API to grab the user’s location, return beach locations along with location weather, and Cloudinary to upload and manage photos. </li>
             </ul>
@@ -55,7 +55,7 @@ class ProjectCard extends React.Component {
 
           <div className="explore">
             <ul>
-              <h4>_explore_ - <button onClick={(event) => {this.exploreHandleLinks(event)}}> Client </button> </h4>
+              <h4>_explore_ - <button className="project-buttons" onClick={(event) => {this.exploreHandleLinks(event)}}> Client </button> </h4>
               <li>Explores our solar system using NASA’s photo of the day, and Le Systeme Solaire API for pulling data on our neighboring celestial objects. </li>
               <li>Leveraged React.js and Semantic-UI-React. </li>
 
@@ -64,8 +64,8 @@ class ProjectCard extends React.Component {
 
           <div className="skinn">
             <ul>
-              <h4>SKINN - <button onClick={(event) => {this.skinnHandleLinks(event)}}> Client </button> |
-              <button onClick={(event) => {this.skinnHandleLinks(event)}}>  API </button></h4>
+              <h4>SKINN - <button className="project-buttons" onClick={(event) => {this.skinnHandleLinks(event)}}> Client </button> |
+              <button className="project-buttons" onClick={(event) => {this.skinnHandleLinks(event)}}>  API </button></h4>
               <li>10 step skincare customizer with review functionality to help women find their top performing natural products.</li>
               <li>Used Ruby on Rails, React.js, and Custom CSS. Uses a seeded database of natural products. </li>
             </ul>
@@ -74,8 +74,8 @@ class ProjectCard extends React.Component {
 
           <div className="cardGame">
             <ul>
-              <h4>Card Game - <button onClick={(event) => {this.cardGameHandleLinks(event)}}> Client </button> |
-              <button onClick={(event) => {this.cardGameHandleLinks(event)}}>  API </button></h4>
+              <h4>Card Game - <button className="project-buttons" onClick={(event) => {this.cardGameHandleLinks(event)}}> Client </button> |
+              <button className="project-buttons" onClick={(event) => {this.cardGameHandleLinks(event)}}>  API </button></h4>
               <li>Fun memory game, created to match cards with the same programming language logo to earn points. </li>
               <li>Made with Ruby on Rails, and Javascript. </li>
             </ul>
