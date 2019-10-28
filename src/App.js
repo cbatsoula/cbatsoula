@@ -1,5 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Resume from "./components/Resume"
+
 import './App.css';
 import Nav from './containers/Nav';
 import Projects from './components/Projects';
@@ -8,18 +10,24 @@ import Footer from './components/Footer';
 
 class App extends React.Component {
 
+
   render () {
     return (
       <>
-
+        <Router>
         <Nav />
         <div className="Main">
           <div className="Landing">
           Hi, I'm Catherine Batsoula
           </div>
         </div>
-        <Projects />
-        <About />
+        <Switch>
+          <Route path='/projects' render={(routerProps) => <Projects {...routerProps} /> } />
+          <Route path='/about' render={(routerProps) => <About {...routerProps} /> } />
+          <Route path='/resume' render={(routerProps) => <Resume {...routerProps} /> } />
+        </Switch>
+        </Router>
+
         <Footer />
       </>
     );
