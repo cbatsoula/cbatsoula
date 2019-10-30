@@ -4,11 +4,8 @@
   "private": true,
   "homepage": "https://cbatsoula.github.io",
   "dependencies": {
-<<<<<<< HEAD
     "gh-pages": "^2.1.1",
-=======
     "pdf-viewer-reactjs": "^1.0.5",
->>>>>>> 78e58dac509cfb95ff332b49c3da6f68220f7201
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.1.0",
