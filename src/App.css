@@ -10,24 +10,66 @@
 
 .Nav {
   display: flex;
-  background-color: #C3C9DE;
-  opacity: 0.5;
+  background-color: #6B5D25;
+  /* opacity: 0.5; */
   width: 100vw;
   height: 10vh;
   position: sticky;
   top: 0;
-  color: burlywood;
+  /* color: burlywood; */
   font-size: 35px;
   text-align: center justify;
+  justify-content: center;
 }
+
 
 .Landing {
   display: flex;
   color: burlywood;
-  font-size: 35px;
+  font-size: 60px;
   text-align: center justify;
-  text-shadow: 3px 2px black;
+  text-shadow: 3px 2px 2px black;
 
+    margin-top: 350px;
+    margin-left: 400px;
+
+
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .Projects {
@@ -42,14 +84,16 @@
   justify-content: center; */
 
   display: flex;
-  height: 100vh;
+  height: 240vh;
   width: 100vw;
   /* opacity: 0.5; but why*/
   /* padding: 50px; */
   /* margin: 20px; */
   align-self: center;
   justify-content: center;
-  background-color: darkblue;
+  background-color: #3c4215;
+
+
 
 }
 
@@ -69,47 +113,139 @@
   justify-content: center; */
 
   display: flex;
-  height: 75vh;
-  width: 80vw;
-  padding: 50px;
-  margin: 20px;
+  height: 220vh;
+  width: 90vw;
+  padding: 30px;
+  margin: 10px;
   align-self: center;
   justify-content: center;
-  color: white;
-  background-color: pink;
+  color: black;
+  background-color: #c4cf7c;
+  flex-direction: column;
+
+  -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+.waveson {
+  display: flex;
+  padding: 5px;
+  margin: 2px;
+  align-items: stretch;
+  justify-content: flex-start;
+
+}
+
+.explore {
+  display: flex;
+  padding: 5px;
+  margin: 2px;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.skinn {
+  display: flex;
+  padding: 5px;
+  margin: 2px;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.cardGame {
+  display: flex;
+  padding: 5px;
+  margin: 2px;
+  justify-content: flex-start;
+  /* justify-content: center; */
+  align-items: stretch;
 }
 
 .About {
   display: flex;
-  height: 100vh;
+  height: 70vh;
   width: 100vw;
-  background-color: burlywood;
-  justify-content: center;
-
-
+  background-color: #3c4215;
+  justify-content:space-around;
+  flex-direction: row;
 }
 
 .About-cont{
   display: flex;
-  height: 75vh;
-  width: 80vw;
-  padding: 50px;
-  margin: 20px;
+  height: 40vh;
+  width: 90vw;
+  padding: 35px;
+  margin: 30px;
+  /* align-self:flex-start;
+  justify-content: flex-start; */
+  background-color: #c4cf7c;
+
+  color: black;
+  font-weight: bold;
+
+  -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+.About-images {
+  display: flex;
+  height: 50vh;
+  width: 60vw;
+  padding: 15px;
+  margin: 50px;
+  align-self:auto;
+  /* justify-content:space-around; */
+  /* border-radius: 50%; */
+  -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+
+  /* color: black;
+  font-weight: bold; */
+
+  background-image: url("/MVIMG_20191028_120144.jpg");
+  background-size: cover;
+  -webkit-transform:rotate(270deg);
+  -moz-transform:rotate(270deg);
+}
+
+.Resume {
+  display: flex;
+  background-color: #c4cf7c;
   align-self: center;
   justify-content: center;
-  background-color: darkblue;
-  /* opacity: 0.5; */
-
-  color: white;
-  font-weight: bold;
 }
 
 .Footer {
   display: flex;
   height: 20vh;
   width: 100%;
-  background-color: #C3C9DE;
+  background-color: #ebe3c5;
+  justify-content: center;
+  background-image: url("/IMG_4800.jpg");
+  background-size: cover;
+}
 
+button {
+  cursor: pointer;
+  /* background: #f0ebe6; */
+  border: 0;
+  border-radius: 0.25rem;
+  /* opacity: 0.5; */
+  background-image: -webkit-linear-gradient(top, #eddac7, #404040);
+  color: black;
+  padding: 5px;
+  margin: 10px;
+}
+
+.project-buttons {
+  border: 0;
+  color: black;
+  padding: 5px;
+  margin: 5px;
+  background: #f0ebe6;
 }
 /* .App-logo {
   height: 40vmin;

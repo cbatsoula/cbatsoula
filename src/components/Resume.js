@@ -1,5 +1,9 @@
 import React from 'react';
+<<<<<<< HEAD
 
+=======
+import PDFViewer from 'pdf-viewer-reactjs';
+>>>>>>> 78e58dac509cfb95ff332b49c3da6f68220f7201
 
 class Resume extends React.Component {
 
@@ -11,7 +15,11 @@ class Resume extends React.Component {
                 file: 'Resume.pdf'
             }}
         />*/}
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 78e58dac509cfb95ff332b49c3da6f68220f7201
       </div>
     );
   }
