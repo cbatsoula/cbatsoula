@@ -2,10 +2,10 @@
   "name": "cbatsoula_site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cbatsoula.github.io",
+  "engines": {
+    "yarn": "1.x"
+  },
   "dependencies": {
-    "gh-pages": "^2.1.1",
-    "pdf-viewer-reactjs": "^1.0.5",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.1.2",
