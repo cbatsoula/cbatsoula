@@ -23,7 +23,7 @@ class App extends React.Component {
         <Switch>
           <Route path='/projects' render={(routerProps) => <Projects {...routerProps} /> } />
           <Route path='/about' render={(routerProps) => <About {...routerProps} /> } />
-          <Route path='/resume' render={(routerProps) => <Resume {...routerProps} /> } />
+        
         </Switch>
         </Router>
 
