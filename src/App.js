@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Resume from "./components/Resume"
 
 import './App.css';
 import Nav from './containers/Nav';
