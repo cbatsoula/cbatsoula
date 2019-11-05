@@ -3,8 +3,9 @@ import { Link } from  'react-router-dom';
 
 class Nav extends React.Component {
   buttonClick = () => {
-    window.location = "https://drive.google.com/file/d/0B4totDNwNoRuVGNwU25QNVJOS2c/view"
+    window.location = "https://docs.google.com/document/d/13KVNctcoed3cMKObeBR9RpxQ6wrMjUL__XAgdP-M7KE/edit?usp=sharing"
   }
+
 
  //look up react references and how to actually make them and use them --
 
