@@ -1,14 +1,27 @@
 .Main {
   display: flex;
-  text-align: center;
+
+
   /* background-color: burlywood; */
   /* background-image: url("/IMG_4956.jpg"); */
 
   /* background-size: cover; */
-  max-height: 100vh;
-  max-width: 100vw;
+  /* max-height: 100%;
+  max-width: 100%; */
   width: 100vw;
   height: 100vh;
+  text-align: center;
+  /* z-index: 2; */
+}
+
+.MainPhoto {
+  display: flex;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+
 }
 
 .Nav {
@@ -26,12 +39,19 @@
 }
 
 
-.Landing {
+h2 {
   display: flex;
   color: burlywood;
   font-size: 60px;
   text-align: center justify;
   text-shadow: 3px 2px 2px black;
+  z-index: 2;
+  text-align: center;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
 
 
 

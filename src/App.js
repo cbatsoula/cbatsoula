@@ -6,7 +6,7 @@ import Nav from './containers/Nav';
 import Projects from './components/Projects';
 import About from './containers/About';
 import Footer from './components/Footer';
-import Main from "./IMG_4956.jpg"
+import Main from "./IMG_4956.JPG"
 
 class App extends React.Component {
 
@@ -17,10 +17,10 @@ class App extends React.Component {
         <Router>
         <Nav />
         <div className="Main">
-        <img src={Main} />
-          <div className="Landing">
-          Hi, I'm Catherine Batsoula
-          </div>
+
+        <img className="MainPhoto" src={Main} />
+          <h2><span>Hi, I'm Catherine Batsoula</span></h2>
+
         </div>
         <Switch>
           <Route path='/projects' render={(routerProps) => <Projects {...routerProps} /> } />
