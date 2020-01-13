@@ -1,3 +1,5 @@
+/* breakpoints for landing image, hella long to scroll tbh -- */
+
 .Main {
   display: flex;
 
@@ -36,13 +38,14 @@
   font-size: 35px;
   text-align: center justify;
   justify-content: center;
+  z-index: 10
 }
 
 
 h2 {
   display: flex;
-  color: burlywood;
-  font-size: 60px;
+  color: pink;
+  font-size: 40px;
   text-align: center justify;
   text-shadow: 3px 2px 2px black;
   z-index: 2;
@@ -55,8 +58,8 @@ h2 {
 
 
 
-    margin-top: 350px;
-    margin-left: 400px;
+    margin-top: 35px;
+    margin-left: 40px;
 
 
     animation: fadein 3s;
