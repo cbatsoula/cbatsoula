@@ -1,5 +1,5 @@
 /* breakpoints for landing image, hella long to scroll tbh -- */
-/* .About-images needs to be changed, image gets cropped with window resizing -- */
+/* .About-images needs fixing, overlaps/bleeds into other components, unsure why  -- */
 
 .Main {
   display: flex;
@@ -262,7 +262,7 @@ h2 {
 
 .Footer {
   display: flex;
-  height: 20%;
+  height: 10vh;
   width: 100%;
   background-color: #ebe3c5;
   justify-content: center;
