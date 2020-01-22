@@ -3,14 +3,6 @@
 
 .Main {
   display: flex;
-
-
-  /* background-color: burlywood; */
-  /* background-image: url("/IMG_4956.jpg"); */
-
-  /* background-size: cover; */
-  /* max-height: 100%;
-  max-width: 100%; */
   width: 100vw;
   height: 100vh;
   text-align: center;
@@ -59,8 +51,9 @@ h2 {
 
 
 
-    margin-top: 35px;
-    margin-left: 40px;
+    margin-top: auto;
+    margin-left: auto;
+
 
 
     animation: fadein 3s;
@@ -102,46 +95,16 @@ h2 {
 }
 
 .Projects {
-  /* display: flex; */
-  /* background-color: #C3C9DE; */
-  /* background-image: url("/IMG_4800.jpg");
-  background-size: cover; */
-  /* opacity: 0.85;
-  text-align: center;
-  height: 100vh;
-  width: 100vw;
-  justify-content: center; */
-
   display: flex;
   height: 240%;
   width: 100%;
   /* opacity: 0.5; but why*/
-  /* padding: 50px; */
-  /* margin: 20px; */
-  /* align-self: center; */
   justify-content: center;
   background-color: #3c4215;
-
-
   align-items: center;
-  /* justify-content: space-around; */
 }
 
 .Projects-text {
-  /* display: flex;
-  background-color: burlywood;
-  opacity: 0.5;
-  height: 75vh;
-  width: 80vw; */
-
-  /* border: 15px solid white; */
-
-  /* padding: 50px;
-  margin: 20px;
-  align-self: center;
-  text-decoration: none;
-  justify-content: center; */
-
   display: flex;
   height: 220%;
   width: 90%;
@@ -152,8 +115,6 @@ h2 {
   color: black;
   background-color: #c4cf7c;
   flex-direction: column;
-
-
 
   -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
@@ -166,8 +127,6 @@ h2 {
   margin: 2px;
   align-items: stretch;
   justify-content: flex-start;
-
-
 }
 
 .explore {
@@ -176,8 +135,6 @@ h2 {
   margin: 2px;
   justify-content: flex-start;
   align-items: stretch;
-
-
 }
 
 .skinn {
@@ -186,8 +143,6 @@ h2 {
   margin: 2px;
   justify-content: flex-start;
   align-items: stretch;
-
-
 }
 
 .cardGame {
@@ -197,8 +152,6 @@ h2 {
   justify-content: flex-start;
   /* justify-content: center; */
   align-items: stretch;
-
-
 }
 
 .About {
@@ -206,7 +159,7 @@ h2 {
   height: 100%;
   width: 100%;
   background-color: #3c4215;
-  justify-content:space-around;
+  justify-content: space-around;
   flex-direction: row;
 }
 
@@ -216,8 +169,6 @@ h2 {
   width: 90%;
   padding: 35px;
   margin: 30px;
-  /* align-self:flex-start;
-  justify-content: flex-start; */
   background-color: #c4cf7c;
 
   color: black;
@@ -231,26 +182,21 @@ h2 {
 .About-images {
   display: flex;
   background-size: cover;
-
   max-height: 50vh;
   max-width: 60vw;
-  padding: 15px;
-  margin: 5px;
-  /* align-self:auto; */
+  margin: 50px;
 
-  /* justify-content:space-around; */
-  /* border-radius: 50%; */
   -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 
-  /* color: black;
-  font-weight: bold; */
-
-  /* background-image: url("/MVIMG_20191028_120144.jpg"); */
   background-size: cover;
   -webkit-transform:rotate(270deg);
   -moz-transform:rotate(270deg);
+}
+
+.Skills {
+  display: flex;
 }
 
 .Resume {
@@ -272,10 +218,10 @@ h2 {
 
 button {
   cursor: pointer;
-  /* background: #f0ebe6; */
+
   border: 0;
   border-radius: 0.25rem;
-  /* opacity: 0.5; */
+
   background-image: -webkit-linear-gradient(top, #eddac7, #404040);
   color: black;
   padding: 5px;
