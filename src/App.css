@@ -36,15 +36,18 @@
 
 h2 {
   display: flex;
-  font-size: 40px;
+  font-size: 30px;
   margin: auto;
+  padding: 20px;
+
 
 }
 
 h3 {
   display: flex;
-  font-size: 30px;
+  font-size: 20px;
   margin: auto;
+  padding: 20px;
 }
 
 .MainText {
@@ -55,14 +58,14 @@ h3 {
   text-shadow: 3px 2px 2px black;
   z-index: 2;
 
-  border-top: thick double pink;
+  border-top: double pink;
   border-bottom: double pink;
-  height: 40vh;
+  height: 30vh;
   width: 50vw;
 
   position: absolute;
-  top: 45%;
-  left: 45%;
+  top: 40%;
+  left: 40%;
   margin-top: -70px;
   margin-left: -110px;
 
@@ -78,6 +81,8 @@ h3 {
     -moz-animation: fadein 5s; /* Firefox */
     -webkit-animation: fadein 5s; /* Safari and Chrome */
     -o-animation: fadein 5s; /* Opera */
+
+
 }
 @keyframes fadein {
     from {
@@ -87,6 +92,7 @@ h3 {
         opacity:1;
     }
 }
+
 @-moz-keyframes fadein { /* Firefox */
     from {
         opacity:0;
@@ -222,6 +228,22 @@ h3 {
 
 .Skills {
   display: flex;
+  background-color: #3c4215;
+  color: pink;
+  font-size: 18px;
+  height: 20%;
+  width:100%;
+  animation: color-me-in 8s;
+}
+@keyframes color-me-in {
+  0%, 100% {
+    background: orange;
+  }
+
+  50% {
+    background: pink;
+  }
+
 }
 
 .Resume {
@@ -229,16 +251,30 @@ h3 {
   background-color: #c4cf7c;
   align-self: center;
   justify-content: center;
+
 }
 
 .Footer {
   display: flex;
   height: 10vh;
   width: 100%;
-  background-color: #ebe3c5;
+  /* background-color: #ebe3c5; */
   justify-content: center;
   background-image: url("https://www.flickr.com/photos/134069298@N06/32154540395/in/datetaken-public/");
   background-size: cover;
+
+
+  animation: color-me-in 8s infinite;
+}
+@keyframes color-me-in {
+  0%, 100% {
+    background: orange;
+  }
+
+  50% {
+    background: pink;
+  }
+
 }
 
 button {
