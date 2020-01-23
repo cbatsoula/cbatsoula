@@ -18,8 +18,11 @@ class App extends React.Component {
         <Nav />
         <div className="Main">
 
+        <div className="MainText">
+        <h2><span>Hi, I'm Catherine Batsoula</span></h2>
+        <h3><span>Full Stack Web Developer</span></h3>
+        </div>
         <img className="MainPhoto" src={Main} />
-          <h2><span>Hi, I'm Catherine Batsoula</span></h2>
 
         </div>
         <Switch>
