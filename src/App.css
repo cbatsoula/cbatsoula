@@ -38,6 +38,8 @@ h2 {
   display: flex;
   font-size: 40px;
   margin: auto;
+  padding: 20px;
+
 
 }
 
@@ -45,6 +47,7 @@ h3 {
   display: flex;
   font-size: 30px;
   margin: auto;
+  padding: 20px;
 }
 
 .MainText {
@@ -55,14 +58,14 @@ h3 {
   text-shadow: 3px 2px 2px black;
   z-index: 2;
 
-  border-top: thick double pink;
+  border-top: double pink;
   border-bottom: double pink;
-  height: 40vh;
+  height: 30vh;
   width: 50vw;
 
   position: absolute;
-  top: 45%;
-  left: 45%;
+  top: 40%;
+  left: 40%;
   margin-top: -70px;
   margin-left: -110px;
 
@@ -78,6 +81,8 @@ h3 {
     -moz-animation: fadein 5s; /* Firefox */
     -webkit-animation: fadein 5s; /* Safari and Chrome */
     -o-animation: fadein 5s; /* Opera */
+
+
 }
 @keyframes fadein {
     from {
@@ -87,6 +92,7 @@ h3 {
         opacity:1;
     }
 }
+
 @-moz-keyframes fadein { /* Firefox */
     from {
         opacity:0;
