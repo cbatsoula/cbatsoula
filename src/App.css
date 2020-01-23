@@ -61,7 +61,7 @@ h3 {
   border-top: double pink;
   border-bottom: double pink;
   height: 30vh;
-  width: 50vw;
+  width: 43vw;
 
   position: absolute;
   top: 40%;
@@ -73,9 +73,6 @@ h3 {
   align-items: center;
 
   flex-direction: column;
-
-
-
 
     animation: fadein 5s;
     -moz-animation: fadein 5s; /* Firefox */
@@ -117,6 +114,46 @@ h3 {
         opacity: 1;
     }
 }
+
+.element {
+  display: flex;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: auto;
+
+  animation:
+    pulse 5s ease infinite alternate,
+    nudge 5s linear infinite;
+  z-index: 9;
+  background-color: #3c4215;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: pink;
+  }
+  50% {
+    background-color: orange;
+  }
+}
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translateY(-250px);
+  }
+
+  50% {
+    transform: translateY(0);
+  }
+
+  80% {
+    transform: translateY(-200px);
+  }
+}
+
 
 .Projects {
   display: flex;
