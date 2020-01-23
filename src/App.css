@@ -34,32 +34,50 @@
   z-index: 10
 }
 
-
 h2 {
   display: flex;
-  color: pink;
   font-size: 40px;
-  text-align: center justify;
+  margin: auto;
+
+}
+
+h3 {
+  display: flex;
+  font-size: 30px;
+  margin: auto;
+}
+
+.MainText {
+  display: flex;
+  color: pink;
+
+  /* text-align: center justify; */
   text-shadow: 3px 2px 2px black;
   z-index: 2;
-  text-align: center;
+
+  border-top: thick double pink;
+  border-bottom: double pink;
+  height: 40vh;
+  width: 50vw;
 
   position: absolute;
-  top: 50%;
-  left: 50%;
-  /* transform: translate(-50%, -50%); */
+  top: 45%;
+  left: 45%;
+  margin-top: -70px;
+  margin-left: -110px;
+
+  justify-content: center;
+  align-items: center;
+
+  flex-direction: column;
 
 
 
-    margin-top: auto;
-    margin-left: auto;
 
-
-
-    animation: fadein 3s;
-    -moz-animation: fadein 3s; /* Firefox */
-    -webkit-animation: fadein 3s; /* Safari and Chrome */
-    -o-animation: fadein 3s; /* Opera */
+    animation: fadein 5s;
+    -moz-animation: fadein 5s; /* Firefox */
+    -webkit-animation: fadein 5s; /* Safari and Chrome */
+    -o-animation: fadein 5s; /* Opera */
 }
 @keyframes fadein {
     from {
@@ -161,6 +179,13 @@ h2 {
   background-color: #3c4215;
   justify-content: space-around;
   flex-direction: row;
+
+  -webkit-flex-flow: row wrap;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
 }
 
 .About-cont{
@@ -182,8 +207,8 @@ h2 {
 .About-images {
   display: flex;
   background-size: cover;
-  max-height: 50vh;
-  max-width: 60vw;
+  max-height: 45vh;
+  max-width: 55vw;
   margin: 50px;
 
   -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
