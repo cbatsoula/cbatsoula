@@ -7,6 +7,7 @@
   height: 100vh;
   text-align: center;
   /* z-index: 2; */
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .MainPhoto {
@@ -31,7 +32,9 @@
   font-size: 35px;
   text-align: center justify;
   justify-content: center;
-  z-index: 10
+  z-index: 10;
+
+  font-family: 'Ubuntu', sans-serif;
 }
 
 h2 {
@@ -40,7 +43,7 @@ h2 {
   margin: auto;
   padding: 20px;
 
-
+  font-family: 'Ubuntu', sans-serif;
 }
 
 h3 {
@@ -48,6 +51,8 @@ h3 {
   font-size: 25px;
   margin: auto;
   padding: 20px;
+
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .MainText {
@@ -71,6 +76,8 @@ h3 {
 
   justify-content: center;
   align-items: center;
+
+  font-family: 'Ubuntu', sans-serif;
 
   flex-direction: column;
 
@@ -176,6 +183,8 @@ h3 {
   -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .waveson {
@@ -246,6 +255,9 @@ h3 {
 
   color: black;
   font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 1px;
+  line-height: 1.6;
 
   -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
@@ -276,6 +288,8 @@ h3 {
   height: 20%;
   width: 100%;
   align-items: center;
+
+  font-family: 'Ubuntu', sans-serif;
 }
 /* animation: color-me-in 8s;
 @keyframes color-me-in {
@@ -307,6 +321,7 @@ h3 {
   background-size: cover;
 
 
+
   animation: color-me-in 8s infinite;
 }
 @keyframes color-me-in {
@@ -330,6 +345,7 @@ button {
   color: black;
   padding: 5px;
   margin: 10px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .project-buttons {
@@ -349,6 +365,8 @@ p {
   padding: 15px;
   margin: 30px;
   align-self: center;
+
+  font-family: 'Ubuntu', sans-serif;
 }
 /* .App-logo {
   height: 40vmin;
