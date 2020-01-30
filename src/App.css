@@ -1,10 +1,10 @@
 /* breakpoints for landing image, hella long to scroll tbh -- */
-/* .About-images needs fixing, overlaps/bleeds into other components, unsure why  -- */
+
 
 .Main {
   display: flex;
   width: 100vw;
-  height: 100vh;
+  height: 90vh;
   text-align: center;
   /* z-index: 2; */
   font-family: 'Ubuntu', sans-serif;
@@ -13,10 +13,10 @@
 .MainPhoto {
   display: flex;
   background-size: cover;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 90vh;
 
-  text-align: center;
+  /* text-align: center; */
 
 }
 
@@ -134,8 +134,19 @@ h3 {
   animation:
     pulse 5s ease infinite alternate,
     nudge 3s linear infinite;
+
+
+  -moz-animation:
+    pulse 5s ease infinite alternate,
+    nudge 3s linear infinite; /* Firefox */
+  -webkit-animation:
+    pulse 5s ease infinite alternate,
+    nudge 3s linear infinite; /* Safari and Chrome */
+  -o-animation:
+    pulse 5s ease infinite alternate,
+    nudge 3s linear infinite; /* Opera */
   z-index: 9;
-  background-color: #3c4215;
+  background-color: white;
 }
 
 @keyframes pulse {
@@ -146,8 +157,60 @@ h3 {
     background-color: #c4cf7c;
   }
 }
+@-moz-keyframes pulse { /* Firefox */
+  0%, 100% {
+    background-color: pink;
+  }
+  50% {
+    background-color: #c4cf7c;
+  }
+}
+@-webkit-keyframes pulse { /* Safari and Chrome */
+  0%, 100% {
+    background-color: pink;
+  }
+  50% {
+    background-color: #c4cf7c;
+  }
+}
+@-o-keyframes pulse { /* Opera */
+  0%, 100% {
+    background-color: pink;
+  }
+  50% {
+    background-color: #c4cf7c;
+  }
+}
 
 @keyframes nudge {
+  0%, 100% {
+    transform: translateY(-100px);
+  }
+
+  80% {
+    transform: translateY(-275px);
+  }
+}
+
+@-moz-keyframes nudge { /* Firefox */
+  0%, 100% {
+    transform: translateY(-100px);
+  }
+
+  80% {
+    transform: translateY(-275px);
+  }
+}
+@-webkit-keyframes nudge { /* Safari and Chrome */
+  0%, 100% {
+    transform: translateY(-100px);
+  }
+
+  80% {
+    transform: translateY(-275px);
+  }
+}
+@-o-keyframes nudge { /* Opera */
   0%, 100% {
     transform: translateY(-100px);
   }
