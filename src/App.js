@@ -25,6 +25,7 @@ class App extends React.Component {
         <img className="MainPhoto" src={Main} />
 
         </div>
+        <center><div className="element"></div></center>
         <Switch>
           <Route path='/projects' render={(routerProps) => <Projects {...routerProps} /> } />
           <Route path='/about' render={(routerProps) => <About {...routerProps} /> } />

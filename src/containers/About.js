@@ -8,6 +8,9 @@ class About extends React.Component {
 
     return (
       <>
+      <div className="AboutBanner">
+      <h3>A little about myself</h3>
+      </div>
         <div className="About">
 
           <img className="About-images" src={AboutImages} />

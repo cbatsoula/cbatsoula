@@ -7,6 +7,7 @@
   height: 100vh;
   text-align: center;
   /* z-index: 2; */
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .MainPhoto {
@@ -31,7 +32,9 @@
   font-size: 35px;
   text-align: center justify;
   justify-content: center;
-  z-index: 10
+  z-index: 10;
+
+  font-family: 'Ubuntu', sans-serif;
 }
 
 h2 {
@@ -40,14 +43,16 @@ h2 {
   margin: auto;
   padding: 20px;
 
-
+  font-family: 'Ubuntu', sans-serif;
 }
 
 h3 {
   display: flex;
-  font-size: 20px;
+  font-size: 25px;
   margin: auto;
   padding: 20px;
+
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .MainText {
@@ -61,7 +66,7 @@ h3 {
   border-top: double pink;
   border-bottom: double pink;
   height: 30vh;
-  width: 50vw;
+  width: 43vw;
 
   position: absolute;
   top: 40%;
@@ -72,10 +77,9 @@ h3 {
   justify-content: center;
   align-items: center;
 
+  font-family: 'Ubuntu', sans-serif;
+
   flex-direction: column;
-
-
-
 
     animation: fadein 5s;
     -moz-animation: fadein 5s; /* Firefox */
@@ -118,6 +122,42 @@ h3 {
     }
 }
 
+.element {
+  display: flex;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: auto;
+
+  animation:
+    pulse 5s ease infinite alternate,
+    nudge 3s linear infinite;
+  z-index: 9;
+  background-color: #3c4215;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    background-color: pink;
+  }
+  50% {
+    background-color: #c4cf7c;
+  }
+}
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translateY(-100px);
+  }
+
+  80% {
+    transform: translateY(-275px);
+  }
+}
+
+
 .Projects {
   display: flex;
   height: 240%;
@@ -143,6 +183,8 @@ h3 {
   -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .waveson {
@@ -178,6 +220,15 @@ h3 {
   align-items: stretch;
 }
 
+.AboutBanner {
+  display: flex;
+  background-color: #3c4215;
+  width: 100%;
+  height: 20%;
+  color: pink;
+
+}
+
 .About {
   display: flex;
   height: 100%;
@@ -197,13 +248,16 @@ h3 {
 .About-cont{
   display: flex;
   height: 40%;
-  width: 90%;
+  width: 70%;
   padding: 35px;
   margin: 30px;
   background-color: #c4cf7c;
 
   color: black;
   font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 1px;
+  line-height: 1.6;
 
   -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
@@ -213,8 +267,8 @@ h3 {
 .About-images {
   display: flex;
   background-size: cover;
-  max-height: 45vh;
-  max-width: 55vw;
+  max-height: 40vh;
+  max-width: 50vw;
   margin: 50px;
 
   -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
@@ -229,12 +283,15 @@ h3 {
 .Skills {
   display: flex;
   background-color: #3c4215;
-  color: pink;
+  color: black;
   font-size: 18px;
   height: 20%;
-  width:100%;
-  animation: color-me-in 8s;
+  width: 100%;
+  align-items: center;
+
+  font-family: 'Ubuntu', sans-serif;
 }
+/* animation: color-me-in 8s;
 @keyframes color-me-in {
   0%, 100% {
     background: orange;
@@ -244,7 +301,7 @@ h3 {
     background: pink;
   }
 
-}
+} */
 
 .Resume {
   display: flex;
@@ -264,11 +321,12 @@ h3 {
   background-size: cover;
 
 
+
   animation: color-me-in 8s infinite;
 }
 @keyframes color-me-in {
   0%, 100% {
-    background: orange;
+    background: #c4cf7c;
   }
 
   50% {
@@ -287,6 +345,7 @@ button {
   color: black;
   padding: 5px;
   margin: 10px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .project-buttons {
@@ -295,6 +354,19 @@ button {
   padding: 5px;
   margin: 5px;
   background: #f0ebe6;
+}
+
+p {
+  display: flex;
+  height: 10%;
+  width: 80%;
+  max-width: 80%;
+  background-color: #c4cf7c;
+  padding: 15px;
+  margin: 30px;
+  align-self: center;
+
+  font-family: 'Ubuntu', sans-serif;
 }
 /* .App-logo {
   height: 40vmin;
