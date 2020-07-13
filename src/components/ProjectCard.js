@@ -4,6 +4,7 @@ class ProjectCard extends React.Component {
   state = {
     wavesonClient: "https://github.com/cbatsoula/waveson-client",
     wavesonAPI: "https://github.com/cbatsoula/waveson-api",
+    wavesonHeroku: "https://waveson.herokuapp.com/",
     skinnClient: "https://github.com/ekatsuta/mod4-final-project/tree/master/skinn-app-frontend",
     skinnAPI: "https://github.com/ekatsuta/mod4-final-project/tree/master/skinn-app-api",
     explore: "https://github.com/cbatsoula/_explore_",
@@ -16,6 +17,8 @@ class ProjectCard extends React.Component {
       return window.location = this.state.wavesonClient}
     else if (event.target.innerText === "API") {
       return window.location = this.state.wavesonAPI
+    } else if (event.target.innerText === "Heroku") {
+      return window.location = this.state.wavesonHeroku
     }
   }
 
@@ -46,9 +49,11 @@ class ProjectCard extends React.Component {
           <div className="waveson">
             <ul>
               <h4>WavesOn - <button className="project-buttons" onClick={(event) => {this.WavesonHandleLinks(event)}}> Client </button> |
-              <button className="project-buttons" onClick={(event) => {this.WavesonHandleLinks(event)}}> API </button></h4>
+              <button className="project-buttons" onClick={(event) => {this.WavesonHandleLinks(event)}}> API </button>
+              <button className="project-buttons" onClick={(event) => {this.WavesonHandleLinks(event)}}> Heroku </button></h4>
               <li>Marine weather and journal web app to allow users to check hourly weather at favorite and nearby (with a radius of roughly 13 miles) beach locations. Users can document their experience at that beach by writing notes and uploading a photo to look back at that moment. </li>
               <li>Utilized Ruby on Rails, React,js, and Custom CSS. Uses Google Products (Places API, Geolocation API, Geocoding API, Maps Javascript API) and World Wide Weather Marine API to grab the user’s location, return beach locations along with location weather, and Cloudinary to upload and manage photos. </li>
+              <li>Hosted on Heroku</li>
             </ul>
           </div>
           <center><iframe width="560" height="315" src="https://www.youtube.com/embed/eRYN-f9j_Z8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
