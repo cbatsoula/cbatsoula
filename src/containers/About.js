@@ -19,7 +19,7 @@ class About extends React.Component {
           </div>
         </div>
         <div className="Skills">
-        <p>Ruby on Rails | Javascript | React | Redux | CSS | HTML | Semantic UI</p>
+        <p>Ruby on Rails | Javascript | React.js | Redux | CSS | HTML | Semantic UI | Github | Adobe Photoshop</p>
         </div>
       </>
     );
