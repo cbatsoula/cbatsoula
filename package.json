@@ -1,7 +1,7 @@
 {
   "name": "cbatsoula_site",
   "version": "0.1.0",
-  "homepage": "https://cbatsoula./github.io/cbatsoula",
+  "homepage": "https://cbatsoula.github.io/cbatsoula",
   "private": true,
   "engines": {
     "node": "12.13.1"
